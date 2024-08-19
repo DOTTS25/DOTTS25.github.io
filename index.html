@@ -1,0 +1,84 @@
+i<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+        h1 {
+            text-align: center;
+        }
+        .project {
+            background: #fff;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project h2 {
+            margin-top: 0;
+        }
+        .project p {
+            margin-bottom: 1em;
+        }
+        .donation {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .donation button {
+            background-color: #28a745;
+            color: white;
+            padding: 0.5em 2em;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Projects</h1>
+    </header>
+    <div class="container">
+        <section class="projects">
+            <div class="project">
+                <h2>Project 1</h2>
+                <p>Description of Project 1</p>
+                <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h2>Project 2</h2>
+                <p>Description of Project 2</p>
+                <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+        <section class="donation">
+            <h2>Support My Work</h2>
+            <p>If you like my projects, consider supporting me:</p>
+            <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
